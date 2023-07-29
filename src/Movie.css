@@ -1,0 +1,117 @@
+.App
+{
+    
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.326);
+}
+
+.Header1{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgba(54, 63, 226, 0.802);
+    padding: 5px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    text-shadow: 2px 1px 5px rgba(8, 0, 0, 0.776);
+}
+.Main
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.995);
+}
+.Box
+{
+
+    font-weight: bold;
+   border: 2px solid red;
+   text-align: start;
+   width: 15%;
+   margin: 5px;
+   height: 250px;
+   background-color: rgba(0, 0, 0, 0.221);
+   overflow: hidden;
+
+   
+}
+.Box img
+{
+    width:100%;
+    height: auto;
+
+}
+.Title2, .Title1
+{
+    display: flex;
+    font-size: 10px;
+    font-weight: bolder;
+    line-height: 20px;
+    justify-content:left;
+}
+.Box:hover
+{
+   font-weight: bold;
+   border: 2px solid rgb(0, 0, 0);
+   background-color: rgb(209, 224, 221);
+   box-shadow: 0px 0px 50px 5px rgba(100, 100, 242, 0.77);
+}
+.Box:active
+{
+    color: white;
+   font-weight: bold;
+   border: 5px solid rgb(0, 0, 0);
+   background-color: rgb(0, 0, 0);
+   box-shadow: 0px 0px 50px 5px rgba(239, 61, 61, 0.803);
+}
+
+ /*button */
+ .buttons
+ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.995);
+ }
+ 
+ .btn
+{
+  color:white;
+  background-color: rgba(23, 23, 175, 0.717);
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+
+
+.btn:hover
+{
+  color:white;
+  background-color: rgba(23, 23, 175, 0.717);
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+.btn:active
+{
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 50px 5px rgba(239, 61, 61, 0.803);
+ }
+
+.Heading
+{
+    background-color: rgba(188, 143, 143, 0.33);
+    color: rgb(2, 1, 1);
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
